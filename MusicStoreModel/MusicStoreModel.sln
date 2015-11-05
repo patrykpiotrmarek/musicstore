@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Models", "MusicStore.Models\MusicStore.Models.csproj", "{38EE4183-7556-4073-90ED-C4DC2BBF4FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelToJson", "ModelToJson\ModelToJson.csproj", "{A82EFB9B-5573-45A9-B35D-DD0AE6C5973E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38EE4183-7556-4073-90ED-C4DC2BBF4FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EE4183-7556-4073-90ED-C4DC2BBF4FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EE4183-7556-4073-90ED-C4DC2BBF4FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EE4183-7556-4073-90ED-C4DC2BBF4FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82EFB9B-5573-45A9-B35D-DD0AE6C5973E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82EFB9B-5573-45A9-B35D-DD0AE6C5973E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82EFB9B-5573-45A9-B35D-DD0AE6C5973E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82EFB9B-5573-45A9-B35D-DD0AE6C5973E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
