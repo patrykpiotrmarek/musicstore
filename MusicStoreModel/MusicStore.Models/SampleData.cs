@@ -591,10 +591,12 @@ namespace MusicStore.Models
                 new Album { Title = "Zoso", Genre = genres["Rock"], Price = 8.99M, Artist = artists["Led Zeppelin"], AlbumArtUrl = imgUrl },
             };
 
+            var id = 1;
             foreach (var album in albums)
             {
                 album.ArtistId = album.Artist.ArtistId;
                 album.GenreId = album.Genre.GenreId;
+                album.AlbumId = id++;
             }
 
             return albums;
